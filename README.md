@@ -28,7 +28,7 @@ import cv2
 import numpy as np
 import matplotlib.pyplot as plt
 
-image = cv2.imread('archery1.jpg') 
+image = cv2.imread('butterfly.jpg') 
 gray_image = cv2.cvtColor(image, cv2.COLOR_BGR2GRAY)
 
 # 1) Apply Sobel operator
